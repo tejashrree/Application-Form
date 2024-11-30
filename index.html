@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <ol type="1">
+
+        <div>
+            <li>
+                <h4>Personal Information:</h4>
+            </li>
+            <label for="Firstname">Enter your Firstname:</label>
+            <input type="text" id="Firstname" name="Firstname" value="" required>
+        </div>
+        <div>
+            <label for="Middlename">Enter your Middlename:</label>
+            <input type="text" id="Middlename" name="Middlename" value="">
+        </div>
+        <div>
+            <label for="Lastname">Enter your Lastname:</label>
+            <input type="text" id="Lastname" name="Lastname" value="" required>
+        </div>
+        <div>
+            <label for="E-mail">Enter your E-mail:</label>
+            <input type="email" id="E-mail" name="E-mail" value="">
+        </div>
+        <div>
+            <label for="Phone number">Enter your Phone Number:</label>
+            <input type="tel" id="Phone number" name="Phone number" value="">
+        </div>
+        <div>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob">
+        </div>
+        <div>
+            <label for="gender">Select your gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <lable for="male">Male</lable>
+            <input type="radio" id="female" name="gender" value="male">
+            <lable for="female">Female</lable>
+            <input type="radio" id="others" name="gender" value="others">
+            <lable for="others">Others</lable>
+        </div>
+        <div>
+            <li>
+                <h4>Address Details:</h4>
+            </li>
+            <label for="Address">Permanent Address:</label>
+            <textarea id="Address" name="Address"></textarea>
+        </div>
+        <div>
+            <label for="current">Current Address(if different):</label>
+            <textarea id="current" name="current"></textarea>
+        </div>
+        <div>
+            <li>
+                <h4>Educational Background:</h4>
+            </li>
+            <label for="Qualification">Highest Qualification:</label>
+            <input type="text" id="Qualification" name="Qualification" value="">
+        </div>
+        <div>
+            <label for="institute">Institute Name:</label>
+            <input type="text" id="Institute" name="Institute" value="">
+        </div>
+        <div>
+            <label for="year">Graduation year:</label>
+            <input type="month" id="year" name="year" value="">
+        </div>
+        <div>
+            <li>
+                <h4>Work Experience (if applicable)</h4>
+            </li>
+            <label for="Company">Company Name:</label>
+            <input type="text" id="Company" name="Company" value="">
+        </div>
+        <div>
+            <label for="role">Role/Position:</label>
+            <input type="text" id="role" name="role" value="">
+        </div>
+        <div>
+            <label for="duration">Duration:</label>
+            <input type="text" id="duration" name="duration" value="">
+        </div>
+        <div>
+            <li>
+                <h4>Additional Details:</h4>
+            </li>
+            <label for="skills">Skills:</label>
+            <textarea id="skills" name="skills"></textarea>
+        </div>
+        <div>
+            <label for="certifications">Certifications:</label>
+            <textarea id="certifications" name="certifications"></textarea>
+        </div>
+        <div>
+            <label for="references">References:</label>
+            <textarea id="references" name="references"></textarea>
+        </div>
+        <div>
+            <li>
+                <h4>File Uploads (Optional)</h4>
+            </li>
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" value="">
+        </div>
+        <div>
+            <label for="proof">Upload ID Proof:</label>
+            <input type="file" id="proof" name="proof" value="">
+        </div>
+        <div>
+            <li>
+                <h4>Declaration:</h4>
+            </li>
+            <input type="checkbox" name="declaration" required>
+            I hereby declare that all the information provided is accurate and complete.
+        </div>
+    </ol>
+    <button type="submit">Submit Application</button>
+
+
+</body>
+
+</html>
